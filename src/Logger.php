@@ -13,7 +13,7 @@ class Logger {
 	 * @return string
 	 */
 	public function info( $message ) {
-		// Quiet
+		print $message;
 	}
 
 	/**
@@ -22,7 +22,7 @@ class Logger {
 	 * @return mixed
 	 */
 	public function success( $message ) {
-		return $message;
+		print $message;
 	}
 
 	/**
@@ -31,7 +31,7 @@ class Logger {
 	 * @return mixed
 	 */
 	public function warning( $message ) {
-		// Quiet
+		print $message;
 	}
 
 	/**
@@ -40,7 +40,7 @@ class Logger {
 	 * @return mixed
 	 */
 	public function error( $message ) {
-		return $message;
+		print $message;
 	}
 
 	/**
@@ -51,6 +51,6 @@ class Logger {
 	public function error_multi_line( $message_lines ) {
 		$message = implode( "\n", $message_lines );
 
-		return $message;
+		print $message;
 	}
 }
