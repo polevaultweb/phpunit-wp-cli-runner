@@ -1,0 +1,19 @@
+{
+  "name": "polevaultweb/phpunit-wp-cli-runner",
+  "description": "Helper to test custom WP-CLI commands by bootstrapping WP-CLI in PHPUnit",
+  "keywords": [
+    "testing",
+    "phpunit",
+    "wp-cli"
+  ],
+  "homepage": "https://github.com/polevaultweb/phpunit-wp-cli-runner",
+  "license": "GPL",
+  "require": {
+    "wp-cli/wp-cli": "0.20.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Polevaultweb\\PHPUnit_WP_CLI_Runner\\": "src"
+    }
+  }
+}
